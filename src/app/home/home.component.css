@@ -1,9 +1,15 @@
 
-.box {
-    text-align: center;
+.row {
     background: white;
     animation: boxAnimate 1s linear forwards;
 }
+
+img {
+    float:left;
+    width:200px;
+    height:100px;
+}
+
 @keyframes  boxAnimate
 {
     0%

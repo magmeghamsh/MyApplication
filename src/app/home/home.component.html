@@ -1,17 +1,25 @@
 <html>
-    <head>
-    </head>
-    <body>
-            <div class="box">
-                <h1>
-                    Hello, I'm Meghamsh Gurram. I design & build web applications.
-                </h1>
-                <h2 [@fade]="{value: triggerValue, params: {duration: '1s'}}">
-                    My passion is creating, and I find happiness in being a better me today than the me yesterday.
-                </h2>
-            </div>
-        <app-catalog></app-catalog>
-    </body>
+<head>
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-3">
+        <img alt="Logo" src="assets/images/MG.png" style="">
+    </div>
+    <div class="col-sm-6">
+        <h1>
+            Hello, I'm Meghamsh Gurram. I design & build web applications.
+        </h1>
+        <h2 [@fade]="{value: triggerValue, params: {duration: '1s'}}">
+            My passion is creating, and I find happiness in being a better me today than the me yesterday.
+        </h2>
+    </div>
+    <div class="col-sm-3">
+        <textarea matInput placeholder="Leave a comment"></textarea>
+    </div>
+</div>
+<app-catalog></app-catalog>
+</body>
 </html>
 
 

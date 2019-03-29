@@ -8,6 +8,8 @@ import {CommonModule} from '@angular/common';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MatCardModule } from '@angular/material';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
     declarations: [
@@ -21,6 +23,8 @@ import { MatCardModule } from '@angular/material';
         CommonModule,
         AppRoutingModule,
         MatCardModule,
+        MatGridListModule,
+        MatInputModule,
         RouterModule.forRoot([{
             path: 'home',
             component: HomeComponent
