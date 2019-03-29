@@ -1,6 +1,21 @@
 
-
 .box {
-    background-color: #eee;
     text-align: center;
+    background: #455a64;
+    animation: boxAnimate 1s linear forwards;
+}
+@keyframes  boxAnimate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
 }

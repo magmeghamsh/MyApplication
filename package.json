@@ -23,6 +23,8 @@
     "@angular/router": "^7.2.11",
     "animate.css": "^3.7.0",
     "core-js": "^2.5.4",
+    "font-awesome": "^4.7.0",
+    "particles.js": "^2.0.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "web-animations-js": "^2.3.1",

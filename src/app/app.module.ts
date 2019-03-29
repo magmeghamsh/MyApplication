@@ -6,17 +6,21 @@ import {HomeComponent} from './home/home.component';
 import {RouterModule} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { CatalogComponent } from './catalog/catalog.component';
+import { MatCardModule } from '@angular/material';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        CatalogComponent
     ],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
         CommonModule,
         AppRoutingModule,
+        MatCardModule,
         RouterModule.forRoot([{
             path: 'home',
             component: HomeComponent
