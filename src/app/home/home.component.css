@@ -1,7 +1,7 @@
 
 .box {
     text-align: center;
-    background: #455a64;
+    background: white;
     animation: boxAnimate 1s linear forwards;
 }
 @keyframes  boxAnimate

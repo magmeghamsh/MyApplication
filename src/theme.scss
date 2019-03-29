@@ -6,7 +6,7 @@ $app-primary: mat-palette($mat-blue-grey, 600);
 $app-secondary: mat-palette($mat-grey, 400);
 $app-warn: mat-palette($mat-red);
 
-$app-theme: mat-dark-theme($app-primary, $app-secondary, $app-warn);
+$app-theme: mat-light-theme($app-primary, $app-secondary, $app-warn);
 
 @include angular-material-theme($app-theme)
 
