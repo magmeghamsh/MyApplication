@@ -6,16 +6,18 @@ import {HomeComponent} from './home/home.component';
 import {RouterModule} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { CatalogComponent } from './catalog/catalog.component';
-import { MatCardModule } from '@angular/material';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatInputModule } from '@angular/material/input';
+import {CatalogComponent} from './catalog/catalog.component';
+import {MatCardModule} from '@angular/material';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {BsNavbarComponent} from './bs-navbar/bs-navbar.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-        CatalogComponent
+        CatalogComponent,
+        BsNavbarComponent
     ],
     imports: [
         BrowserModule,
@@ -25,10 +27,11 @@ import { MatInputModule } from '@angular/material/input';
         MatCardModule,
         MatGridListModule,
         MatInputModule,
-        RouterModule.forRoot([{
-            path: 'home',
-            component: HomeComponent
-        }
+        RouterModule.forRoot([
+            {
+                path: 'home',
+                component: HomeComponent
+            }
         ])
     ],
     providers: [],

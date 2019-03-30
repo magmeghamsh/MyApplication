@@ -1,0 +1,59 @@
+.mat-grid-list {
+    animation: boxAnimate 1.5s linear forwards;
+}
+
+.box {
+    text-align: center;
+}
+
+@keyframes boxAnimate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+
+.logo {
+    height: 180px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.avatar {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+mat-grid-tile p {
+    color: #3493ff;
+    font-size: small;
+}
+
+.fab {
+    color: #8fd19e;
+    transform: scale(1.5);
+}
+
+.fab:hover {
+    cursor: pointer;
+    transform: scale(2);
+}
+
+.fa-instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
