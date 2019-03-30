@@ -11,13 +11,23 @@ import {MatCardModule} from '@angular/material';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import {BsNavbarComponent} from './bs-navbar/bs-navbar.component';
+import {AboutMeComponent} from './about-me/about-me.component';
+import {EducationComponent} from './education/education.component';
+import {ProfessionComponent} from './profession/profession.component';
+import {TechnologyComponent} from './technology/technology.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
         CatalogComponent,
-        BsNavbarComponent
+        BsNavbarComponent,
+        AboutMeComponent,
+        EducationComponent,
+        ProfessionComponent,
+        TechnologyComponent
     ],
     imports: [
         BrowserModule,
@@ -27,10 +37,28 @@ import {BsNavbarComponent} from './bs-navbar/bs-navbar.component';
         MatCardModule,
         MatGridListModule,
         MatInputModule,
+        MatSidenavModule,
+        MatButtonModule,
         RouterModule.forRoot([
             {
                 path: 'home',
                 component: HomeComponent
+            },
+            {
+                path: 'about-me',
+                component: AboutMeComponent
+            },
+            {
+                path: 'education',
+                component: EducationComponent
+            },
+            {
+                path: 'profession',
+                component: ProfessionComponent
+            },
+            {
+                path: 'tech',
+                component: TechnologyComponent
             }
         ])
     ],

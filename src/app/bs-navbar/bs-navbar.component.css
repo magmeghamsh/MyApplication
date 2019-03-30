@@ -23,7 +23,7 @@
     height: 180px;
 }
 
-img:hover {
+.logo:hover {
     cursor: pointer;
 }
 
@@ -39,14 +39,14 @@ mat-grid-tile p {
     font-size: small;
 }
 
-.fab {
-    color: #8fd19e;
+.fab:hover {
+    cursor: pointer;
     transform: scale(1.5);
 }
 
-.fab:hover {
-    cursor: pointer;
-    transform: scale(2);
+.fa-linkedin-square {
+    background: #491217;
+    color: #fff;
 }
 
 .fa-instagram{
@@ -55,5 +55,12 @@ mat-grid-tile p {
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.divider{
+    width:10px;
+    height:auto;
+    min-height:1px;
+    display:inline-block;
 }
 
