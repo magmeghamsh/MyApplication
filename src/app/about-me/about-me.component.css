@@ -1,16 +1,20 @@
 
-.title-grid{
-    top: 10px;
-    left: 10%;
-}
-.title-grid .mat-display-1{
-text-align: center;
+.title-grid {
+    align-items: center;
+    text-align: center;
 }
 
-.title-grid span:hover{
+.title-grid .mat-display-1 {
+}
+
+.title-grid img {
+
+}
+
+.title-grid span:hover {
     color: white;
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .details-grid .mat-title button {
@@ -23,13 +27,9 @@ text-align: center;
     transform: scale(1.2);
 }
 
-.text-highlight:hover{
+.text-highlight:hover {
     color: white;
     cursor: auto;
-}
-
-.modern-box:hover{
-
 }
 
 .avatar {
@@ -37,6 +37,8 @@ text-align: center;
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    position: center;
-    top: 10px;
+}
+
+.text-indent{
+    text-indent: 50px;
 }
