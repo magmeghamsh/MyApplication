@@ -1,0 +1,16 @@
+
+.dialog-button .mat-mini-fab {
+    background-color: whitesmoke;
+}
+
+.dialog-button {
+   margin-left: 140px;
+}
+
+.dialog-button button:hover {
+    transform: scale(1.1);
+}
+
+.dialog-button button:hover .fa-times{
+    color: #e84118;
+}

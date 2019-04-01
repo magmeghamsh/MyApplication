@@ -17,6 +17,8 @@ import {ProfessionComponent} from './profession/profession.component';
 import {TechnologyComponent} from './technology/technology.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
     declarations: [
@@ -39,6 +41,8 @@ import {MatButtonModule} from '@angular/material/button';
         MatInputModule,
         MatSidenavModule,
         MatButtonModule,
+        MatDialogModule,
+        MatTabsModule,
         RouterModule.forRoot([
             {
                 path: 'home',
