@@ -1,30 +1,47 @@
-<html>
-<head>
-</head>
-<body>
-<mat-drawer-container autosize class="modern-container">
-    <mat-drawer mode="side" opened>
-        <a routerLink="/home">
-            <span class="mat-display-1">Home</span>
-        </a>
+
+<mat-drawer-container class="whole-container">
+    <mat-drawer class="main-container" mode="side" opened>
+        <span (click)="goHome()" class="mat-Title">Meghamsh Gurram</span>
     </mat-drawer>
-    <mat-drawer-content>
-        <span class="mat-subheader pr-4" style="padding-top: 2cm">
+    <mat-drawer-content class="side-container">
+        <span class="mat-subheader">
             <strong>
+                <p>
                 Hi! I'm Meg (pronounced "Megh-amsh), a full stack web developer with over 5 years of experience in a
                 wide variety of technologies. Currently working as a Software Engineer at Ford Motor Company.
             </strong>
         </span>
-        <br>
-        <div class="divider"></div>
         <span class="mat-body-2">
             <p>
-                This is Body 2
+                The English Wikipedia has adopted features from Wikipedias in other languages. These features include
+                verified revisions from the German Wikipedia (dewiki) and town population-lookup templates from the
+                Dutch Wikipedia (nlwiki).Although the English Wikipedia stores images and audio files, as well as text
+                files, many of the images have been moved to Wikimedia Commons with the same name, as passed-through files.
+                However, the English Wikipedia also has fair-use images and audio/video files (with copyright restrictions),
+                most of which are not allowed on Commons.
         </span>
+        <span class="mat-body-2">
+            <p>
+                The English Wikipedia has adopted features from Wikipedias in other languages. These features include
+                verified revisions from the German Wikipedia (dewiki) and town population-lookup templates from the
+                Dutch Wikipedia (nlwiki).Although the English Wikipedia stores images and audio files, as well as text
+                files, many of the images have been moved to Wikimedia Commons with the same name, as passed-through files.
+                However, the English Wikipedia also has fair-use images and audio/video files (with copyright restrictions),
+                most of which are not allowed on Commons.
+        </span>
+        <span class="mat-body-2">
+            <p>
+                The English Wikipedia has adopted features from Wikipedias in other languages. These features include
+                verified revisions from the German Wikipedia (dewiki) and town population-lookup templates from the
+                Dutch Wikipedia (nlwiki).Although the English Wikipedia stores images and audio files, as well as text
+                files, many of the images have been moved to Wikimedia Commons with the same name, as passed-through files.
+                However, the English Wikipedia also has fair-use images and audio/video files (with copyright restrictions),
+                most of which are not allowed on Commons.
+        </span>
+        <br>
+        <button mat-raised-button color="accent">Home</button>
     </mat-drawer-content>
 </mat-drawer-container>
-</body>
-</html>
 
 
 
