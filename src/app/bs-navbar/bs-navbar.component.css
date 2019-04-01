@@ -27,13 +27,6 @@
     cursor: pointer;
 }
 
-.avatar {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-}
-
 mat-grid-tile p {
     color: #3493ff;
     font-size: small;

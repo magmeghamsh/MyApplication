@@ -1,32 +1,42 @@
-.whole-container {
-    top: 150px;
-    left:20%;
-    width: 60%;
-    height: 70%;
 
+.title-grid{
+    top: 10px;
+    left: 10%;
+}
+.title-grid .mat-display-1{
+text-align: center;
 }
 
-.main-container {
-    padding: 50px;
-    background-color: #64d8cb;
-    align-items: center;
-    text-align: center;
-}
-.main-container span{
-   color: black;
-    font-size: large;
-}
-
-.main-container span:hover{
-    cursor: pointer;
+.title-grid span:hover{
     color: white;
-    transform: scale(2);
+    cursor: pointer;
+    transform: scale(1.5);
 }
 
-.side-container{
-    background-color: white;
+.details-grid .mat-title button {
+    top: 12px;
+    left: 450px;
 }
 
-.side-container button{
- align-items: center;
+.details-grid .mat-title button:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.text-highlight:hover{
+    color: white;
+    cursor: auto;
+}
+
+.modern-box:hover{
+
+}
+
+.avatar {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: center;
+    top: 10px;
 }
