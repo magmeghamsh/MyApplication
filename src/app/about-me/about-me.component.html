@@ -1,5 +1,5 @@
-<mat-grid-list class="main-grid" cols="5" rowHeight="900px">
-    <mat-grid-tile [colspan]="2" [rowspan]="1" class="title-grid">
+<mat-grid-list class="main-grid" cols="9" rowHeight="900px">
+    <mat-grid-tile [colspan]="3" [rowspan]="1" class="title-grid">
             <span class="mat-display-1">
                 <img alt="Avatar" class="avatar" routerLink="/home" src="assets/images/Meg_Profile.png">
                 <br>
@@ -8,7 +8,7 @@
                 </strong>
         </span>
     </mat-grid-tile>
-    <mat-grid-tile [colspan]="3" [rowspan]="1" class="details-grid">
+    <mat-grid-tile [colspan]="5" [rowspan]="1" class="details-grid">
         <span class="mat-title">
                 <p>
                     <div class="text-highlight">
@@ -26,7 +26,7 @@
                     </div>
                 <p>
                     <div class="text-highlight">
-                    I understand the day to day difficulties in IT World. Here are couple of things am good at:<br>
+                    I understand the day to day difficulties in IT World. Here are couple of things am good at<br>
                     <b><i>Organization: </i></b> I believe it’s important to stay organised while working in a team. I keep a track
                     of all the things which are assigned to me.<br>
                      <b><i>Time Lines: </i></b> I value my clients’ time and always aim to work efficiently. Try to finish the work
@@ -44,4 +44,5 @@
              <button (click)="goHome()" color="accent" mat-raised-button>Home</button>
         </span>
     </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1"></mat-grid-tile>
 </mat-grid-list>

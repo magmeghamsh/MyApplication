@@ -17,6 +17,10 @@
     border-radius: 100%;
 }
 
+.details-grid{
+    align-items: center;
+}
+
 .details-grid .mat-title button {
     top: 12px;
     left: 450px;
@@ -33,7 +37,7 @@
 }
 
 .text-highlight:hover i{
-    color: #2f3542;
+    color: #F44336;
 }
 
 .text-indent{
