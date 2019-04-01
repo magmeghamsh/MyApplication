@@ -4,17 +4,17 @@
     text-align: center;
 }
 
-.title-grid .mat-display-1 {
-}
-
-.title-grid img {
-
-}
-
 .title-grid span:hover {
     color: white;
     cursor: pointer;
     transform: scale(1.2);
+}
+
+.avatar {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 
 .details-grid .mat-title button {
@@ -32,17 +32,10 @@
     cursor: auto;
 }
 
-.avatar {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+.text-highlight:hover i{
+    color: #2f3542;
 }
 
 .text-indent{
     text-indent: 50px;
-}
-
-.text-highlight:hover i{
-    color: #2f3542;
 }

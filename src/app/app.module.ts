@@ -59,7 +59,15 @@ import {MatButtonModule} from '@angular/material/button';
             {
                 path: 'tech',
                 component: TechnologyComponent
-            }
+            },
+            {
+                path: '',
+                component: HomeComponent
+            },
+            {
+                path: '*',
+                component: HomeComponent
+            },
         ])
     ],
     providers: [],
