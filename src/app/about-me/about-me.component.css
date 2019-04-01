@@ -42,3 +42,7 @@
 .text-indent{
     text-indent: 50px;
 }
+
+.text-highlight:hover i{
+    color: #2f3542;
+}
