@@ -19,6 +19,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
     declarations: [
@@ -43,6 +44,7 @@ import {MatTabsModule} from '@angular/material/tabs';
         MatButtonModule,
         MatDialogModule,
         MatTabsModule,
+        MatExpansionModule,
         RouterModule.forRoot([
             {
                 path: 'home',

@@ -1,3 +1,82 @@
-<p>
-  profession works!
-</p>
+<div class="container">
+    <mat-accordion multi="true">
+        <mat-expansion-panel (closed)="panelOpenState = false"
+                             (opened)="panelOpenState = true" [expanded]="true">
+            <mat-expansion-panel-header>
+                <mat-panel-title >
+                    <span class="mat-title">
+                        Ford Motor Company, Dearborn, MI
+                    </span>
+                </mat-panel-title>
+                <mat-panel-description>
+                     <span class="mat-title">
+                        June, 2017 - Till Date
+                     </span>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <span class="mat-subheading-1">
+                <b>Employer: </b>Modis Inc. <br>
+                <b>Designation: </b>Software Engineer <br>
+                <b>Application Name: </b>Global Unified Database <br>
+                <b>Application Description: </b>UDB (Unified Database) is a strategic foundational database that enables and
+                drives Ford Customer Service Division (FCSD) business.  This database is used as a source of information to identify
+                market opportunities and initiate appropriate marketing programs, support business development initiatives.
+                It also provides a convenient way for business users to access relevant data for ad-hoc analysis. <br>
+                <b>Key Responsibilities: </b><br>
+                * Designing, developing, and deploying cloud applications that are often high-volume and low-latency,
+                  required for mission-critical systems <br>
+                * Technical management responsible for mobilizing multidisciplinary teams working collaboratively. <br>
+                * Transforming requirements into stipulations
+            </span>
+        </mat-expansion-panel>
+        <mat-expansion-panel (closed)="panelOpenState = false"
+                             (opened)="panelOpenState = true">
+            <mat-expansion-panel-header>
+                <mat-panel-title >
+                    <span class="mat-title">
+                        Comerica Bank, Auburn Hills, MI
+                    </span>
+                </mat-panel-title>
+                <mat-panel-description>
+                     <span class="mat-title">
+                        March, 2015- June, 2017
+                     </span>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <span class="mat-subheading-1">
+                <b>Employer: </b>SBS Corp, Haxant (Feb, 2016 – May, 2016) <br>
+                <b>Designation: </b>Programmer Analyst <br>
+                <b>Application Name: </b>Transformer, Central Token System<br>
+                <b>Application Description: </b>Comerica Bank Ltd. is moving from Visa to MasterCard as their retail credit provider.
+                As part of this migration, I developed an application for the fraud user where they can be able to convert Proxy to
+                Token or Token to PAN vice versa for fraud detection. All this transactions are done in a secured level.<br>
+                <b>Key Responsibilities: </b><br>
+                * Developed 'Transformer' from scratch, which acted as the entry point application handling all the requests directly
+                coming from Master Card.<br>
+            </span>
+        </mat-expansion-panel>
+        <mat-expansion-panel (closed)="panelOpenState = false"
+                             (opened)="panelOpenState = true">
+            <mat-expansion-panel-header>
+                <mat-panel-title >
+                    <span class="mat-title">
+                        Vartech Solutions, Hyderabad, AP
+                    </span>
+                </mat-panel-title>
+                <mat-panel-description>
+                     <span class="mat-title">
+                        September, 2012 - Jan, 2013
+                     </span>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <span class="mat-subheading-1">
+                <b>Designation: </b>Associate Developer <br>
+                <b>Application Name: </b>Utilities <br>
+                <b>Application Description: </b>The ‘Utilities’ is an internal web application, which provides the user
+                interfaces to view company new, participant account details, reports, plan management.<br>
+                <b>Key Responsibilities: </b><br>
+                * Preparing and producing releases of software components<br>
+            </span>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
