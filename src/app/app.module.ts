@@ -20,7 +20,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
-
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material';
 @NgModule({
     declarations: [
         AppComponent,
@@ -45,6 +46,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
         MatDialogModule,
         MatTabsModule,
         MatExpansionModule,
+        MatDividerModule,
+        MatListModule,
         RouterModule.forRoot([
             {
                 path: 'home',
